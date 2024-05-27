@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            background-color: rgb(99, 157, 207);
+        }
+
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+           
+        }
+        .box{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            height: 65vh;
+            width: 80vh;
+            border: 2px solid black;
+            margin: 7vh;
+
+        }
+        button{
+            background-color: rgb(125, 207, 180);
+            height: 6vh;
+            width: 4vw;
+            border: 1px solid black;
+            box-shadow: 1vh 1vh 1vh rgb(163, 156, 156);
+            margin: 5.3vh;
+        }
+        #new {
+            width: 10vw;
+        }
+        .showMessage{
+            height: 5vh;
+            width: 50vh;
+            background-color: rgb(114, 221, 185);
+            text-align: center;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            
+            <h3>Pick Any Number</h3>
+
+        <div class="buttons">
+
+            <button id="btn1">1</button>
+            <button id="btn2">2</button>
+            <button id="btn3">3</button>
+            <button id="btn4">4</button>
+            <button id="btn5">5</button>
+            <button id="btn6">6</button>
+            <button id="btn7">7</button>
+            <button id="btn8">8</button>
+            <button id="btn9">9</button>
+            <button id="btn10">10</button>
+            <button id="btn11">11</button>
+            <button id="btn12">12</button>
+
+            </div>
+            
+        </div>
+
+        <div class="showMessage"></div>
+
+        <button id="new">New Game</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+body{
+    background-color: rgba(73, 163, 0, 0.253);
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    
+}
+h1{
+    margin: 5vh;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 5.6vh;
+    color: red;
+    text-align: center;
+}
+
+h1 span {
+    color: rgba(90, 8, 8, 0.856);
+}
+.content{
+    height: 78vh;
+    width: 60vh;
+    background-color: white;
+    border-radius: 2.3vh;
+    position: relative;
+    margin: 20px;
+    padding: 10px;
+}
+.content h2{
+    position: absolute;
+    top: 2vh;
+    left: 3vh;
+    font-family: "Poppins", sans-serif;
+    font-size: 4vh;
+}
+
+.content p {
+    position: absolute;
+    top: 10vh;
+    left: 4vh;
+    color: grey;
+    font-family: "Poppins", sans-serif;
+    font-size: 2vh;
+}
+.progress-bar{
+    position: absolute;
+    top: 15vh;
+    left: 4vh;
+    height: 3vh;
+    width: 51vh;
+    border-radius: 2vh;
+    background-color: rgba(73, 163, 0, 0.253);
+    
+}
+
+.content > .text{
+    position: absolute;
+    top: 20vh;
+    left: 4vh;
+    color: red;
+    font-family: "Poppins", sans-serif;
+    font-family: 400;
+    font-size: 2vh;
+}
+
+#form-1{
+    height: 7vh;
+    width: 50vh;
+    margin-top: 2vh;
+    position: absolute;
+    top: 23vh;
+    left: 4vh;
+    border-radius: 1.5vh;
+    border: 1px solid grey;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vh;
+}
+
+#form-1 > .goal {
+    height: 3vh;
+    width: 30vh;
+    border: none;
+    outline: none;
+    color: green;
+    font-size: 2.2vh;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+}
+#form-1 input[type="checkbox"] {
+    /* Hide the default checkbox */
+    appearance: none;
+    width: 2.5vh;
+    height: 2.5vh;
+    border: 2px solid #ccc;
+    border-radius: 10vh;
+    margin-right: 1vh;
+}
+
+#form-1 input[type="checkbox"]:checked {
+    background-color: #2fb606;
+    /* border-color: #000000; */
+}
+
+#form-1 .goal::placeholder{
+    color: grey;
+}
+
+/* This is for form 2  */
+
+#form-2{
+    height: 7vh;
+    width: 50vh;
+    margin-top: 2vh;
+    position: absolute;
+    top: 35vh;
+    left: 4vh;
+    border-radius: 1.5vh;
+    border: 1px solid grey;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    gap: 10px;
+}
+#form-2 > .goal {
+    height: 3vh;
+    width: 30vh;
+    border: none;
+    outline: none;
+    color: green;
+    font-size: 2.2vh;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    overflow-x: visible;
+}
+#form-2 input[type="checkbox"] {
+    /* Hide the default checkbox */
+    appearance: none;
+    width: 2.5vh;
+    height: 2.5vh;
+    border: 2px solid #ccc;
+    border-radius: 10vh;
+    margin-right: 1vh;
+}
+
+#form-2 input[type="checkbox"]:checked {
+    background-color: #2fb606;
+    /* border-color: #000000; */
+}
+#form-2 .goal::placeholder{
+    color: grey;
+}
+/* This is for form 3 *******************************************/
+#form-3{
+    height: 7vh;
+    width: 50vh;
+    margin-top: 2vh;
+    position: absolute;
+    top: 47vh;
+    left: 4vh;
+    border-radius: 1.5vh;
+    border: 1px solid grey;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    gap: 10px;
+}
+#form-3 > .goal {
+    height: 3vh;
+    width: 30vh;
+    border: none;
+    outline: none;
+    color: green;
+    font-size: 2.2vh;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+}
+#form-3 input[type="checkbox"] {
+    /* Hide the default checkbox */
+    appearance: none;
+    width: 2.5vh;
+    height: 2.5vh;
+    border: 2px solid #ccc;
+    border-radius: 10vh;
+    margin-right: 1vh;
+}
+
+#form-3 .goal::placeholder{
+    color: grey;
+}
+
+.content .message {
+    top: 60vh;
+    left: 13.4vh;
+    font-size: 2vh;
+    font-family: "Poppins", sans-serif;
+    color: black;
+}
+
+.content #owner {
+    top: 69vh;
+    left: 18.4vh;
+    font-size: 1.7vh;
+}
+
+.underline{
+    text-decoration: line-through;
+}
+
+.block{
+    display: block;
+}

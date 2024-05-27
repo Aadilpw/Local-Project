@@ -1,0 +1,318 @@
+* {
+  box-sizing: border-box;
+  transition: all 0.5s ease;
+}
+
+body {
+  margin: 0;
+  background-color: #f6f0eb;
+  font-family: "Poppins", sans-serif;
+}
+
+/* html {
+    scroll-behavior: smooth;
+} */
+
+.main-content {
+  overflow-x: hidden;
+  height: 100vh;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration-line: none;
+  color: inherit;
+}
+
+header {
+  background-color: #fff;
+  padding: 20px;
+}
+
+.header-content {
+  max-width: 1290px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+nav {
+  display: flex;
+  /* gap: 60px; */
+}
+
+nav a {
+  font-weight: 700;
+  font-size: 20px;
+  color: #492118;
+}
+
+nav a + a {
+  margin-left: 60px;
+}
+
+.logo {
+  width: 50px;
+}
+
+img {
+  width: 100%;
+}
+
+main {
+  padding: 0 24px;
+}
+
+.main-section {
+  margin-top: 100px;
+}
+
+.img-container {
+  max-width: 1290px;
+  margin: 0 auto;
+}
+
+.main-section p {
+  color: #492118;
+  text-align: center;
+  font-size: 24px;
+}
+
+.section {
+  margin-top: 120px;
+}
+
+.section .img-container {
+  max-width: 760px;
+}
+
+.section h2 {
+  font-weight: 700;
+  font-size: 48px;
+  color: #492118;
+  text-align: center;
+}
+.go-top{
+    text-align: right;
+    width: 760px;
+    margin: 0 auto;
+    font-size: 24px;
+    margin-top: 30px;
+    font-weight: 600;
+}
+.go-top a{
+    text-decoration-line: underline;
+}
+.made-with{
+    text-align: center;
+    margin: 30px;
+}
+.close-icon{
+  position: absolute;
+  top: 8px;
+  right: 20px;
+  cursor: pointer;
+  display: none;
+}
+
+.menu-container{
+  height: 130px;
+  width: 130px;
+  right: -50px;
+  top: -50px;
+  position: absolute;
+  overflow: hidden;
+  display: none;
+}
+
+.hamburger-menu{
+  background-color: white;
+  height: 130px;
+  width: 130px;
+  border-radius: 60%;
+  display: flex;
+  cursor: pointer;
+}
+.hamburger-icon{
+  position: absolute;
+  top: 70px;
+  right: 70px;
+  font-size: 24px;
+}
+
+
+
+
+@media(max-width:1200px) {
+  nav a {
+    font-size: 18px;
+  }
+  nav a + a{
+    margin-left: 32px;
+  } 
+  .main-section {
+    margin-top: 60px;
+  }
+  header {
+    padding: 18px;
+  }
+  .section {
+    margin-top: 110px;
+  }
+  .section h2{
+    font-weight: 700;
+    font-size: 44px;
+  }
+}
+@media(max-width:960px) {
+  nav a {
+    font-size: 16px;
+  }
+  nav a + a{
+    margin-left: 24px;
+  } 
+  .main-section {
+    margin-top: 36px;
+  }
+  header {
+    padding: 14px;
+  }
+  .section {
+    margin-top: 100px;
+  }
+  .section h2{
+    font-weight: 700;
+    font-size: 40px;
+  }
+.go-top{
+    text-align: right;
+    width: 580px;
+    margin: 0 auto;
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+@media(max-width:850px) {
+  nav a {
+    font-size: 14px;
+  }
+  nav a + a{
+    margin-left: 16px;
+  } 
+  .main-section {
+    margin-top: 30px;
+  }
+  header {
+    padding: 10px;
+  }
+  .section {
+    margin-top: 90px;
+  }
+  .section h2{
+    font-weight: 650;
+    font-size: 38px;
+  }
+}
+
+/* for mobile  */
+
+@media(max-width:768px) {
+  body {
+    overflow-x: hidden;
+  }
+  
+  header{
+    position: sticky;
+    background-color: #f6f0ebf3;
+    top: 0;
+    opacity: 0.89;
+    overflow: visible;
+    z-index: 1000000000;
+    /* backdrop-filter: blur(8px); */
+
+  }
+  header{
+    position: sticky;
+  }
+
+  nav{
+    display: none;
+    position: absolute;
+    right: 24px;
+    top: 0;
+    flex-direction: column;
+    margin-top: 6px;
+    background-color: white;
+    padding: 20px;
+    
+  }
+  
+  nav a + a{
+    margin-left: 0;
+    margin-top: 16px;
+  } 
+
+  .section {
+    margin-top: 50px;
+  }
+
+  .section h2{
+    font-weight: 600;
+    font-size: 28px;
+  }
+
+  .go-top{
+    text-align: right;
+    width: 510px;
+    margin: 0 auto;
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.main-section p {
+  font-size: 16px;
+}
+
+.logo{
+  margin-left: 22px;
+  margin-top: 12px;
+}
+
+.close-icon{
+  display: block;
+}
+.menu-container{
+  display: block;
+}
+.menu-open{
+  display: flex;
+}
+.menu-gayab{
+  display: none;
+}
+
+}
+
+@media(max-width:500px){
+  .go-top{
+    width: 350px;
+}}
+
+@media(max-width:375px){
+  .go-top{
+    text-align: right;
+    width: 210px;
+    margin: 0 auto;
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: 600;
+}}
+
+@media(max-width:375px){
+  body{
+    overflow-x: hidden;
+  }
+}
