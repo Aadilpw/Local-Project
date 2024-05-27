@@ -1,0 +1,33 @@
+.main{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(90, 84, 84);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1vh;
+}
+.row{
+    height: 6.5vh;
+    
+}
+
+.number{
+    height: 6vh;
+    width: 5vw;
+    border-radius: 2vh;
+    border: 1px solid black;
+    font-size: 2.5vh;
+}
+#input{
+    height: 6vh;
+    width: 20.5vw;
+    border-radius: 2vh;
+    border: 1px solid black;
+    font-size: 3vh;
+    
+}
+.opt{
+    background-color: yellow;
+}

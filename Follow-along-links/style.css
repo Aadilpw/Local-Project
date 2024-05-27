@@ -1,0 +1,61 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(45deg, #3498db, #e74c3c);
+    color: #000000; /* Text color */
+    line-height: 1.6;
+}
+
+/* Navigation styles */
+nav {
+    /* background-color: #333; */
+    color: #0f0f0f;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    height: 50px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li{
+    display: inline;
+    margin-right: 20px;
+    color: #cbeb17;
+}
+
+nav ul li a {
+    color: #cbeb17;
+    text-decoration: none;
+}
+
+nav ul li:hover {
+    text-decoration: underline;
+}
+
+/* Wrapper styles */
+.wrapper {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: linear-gradient(45deg, #e74c3c , #3498db, );
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Additional styles */
+.wrapper p {
+    margin-bottom: 15px;
+}
+
