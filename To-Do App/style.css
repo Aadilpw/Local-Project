@@ -1,0 +1,180 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #0D0714
+}
+
+.container{
+    width: 100%;
+}
+.center{
+    width: 30%;
+    margin: 0 auto;
+}
+
+header,
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+main{
+    margin: 0 auto;
+}
+
+header{
+    margin: 20px;
+}
+
+button{
+    margin: 10px;
+    background-color: #9E78CF;
+    border: none;
+    height: 34px;
+    width: 34px;
+    border-radius: 5px;
+    font-size: 20px;
+    color: #fff;
+    line-height: 20px;
+    text-align: center;
+    padding: 2px;
+}
+.userText{
+    height: 34px;
+    width: 300px;
+    border: 1px solid #9E78CF;
+    outline: none;
+    border-radius: 5px;
+    background-color: #0D0714;
+    color : #9E78CF;
+    padding: 5px;
+    font-size: 14px;
+}
+.taskTodo{
+    color: #9E78CF;
+    width: 300px;
+    border: 2px solid yellow;
+    padding: 5px;
+}
+.taskTodo p{
+    color: #fff;
+}
+
+.inputs{
+    width: 300px;
+}
+
+.taskDone{
+    color: #78CFB0;
+    text-decoration: line-through;
+} */
+
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #0D0714;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color:  #0D0714;
+    box-shadow: 1px 1px 10px rgba(255, 253, 253, 0.1);
+    border-radius: 10px;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header, main, footer {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.userInput {
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.userText {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    font-size: 13px;
+}
+
+.AddText {
+    padding: 6px 12px;
+    margin-left: 10px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.taskTodo, .taskDone {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.taskTodo p,
+.taskDone p {
+    text-align: justify;
+    margin: 12px;
+    margin-bottom: 24px;
+}
+
+
+.inputs {
+    list-style-type: none;
+    padding: 2px;
+    width: 94%;
+    text-align: center;
+    line-height: 30px;
+    border: 2px solid red;
+    margin: 10px;
+    background-color: #0D0714;
+    color:  #9E78CF;
+    border-radius: 7px;
+    padding: 5px;
+}
+
+.complete, .delete{
+    display:;
+    width: 46px ;
+    height: 30px;
+    background-color: #0D0714;
+    color: #9E78CF;
+    margin-left: 20px;
+}
+
+
+.taskDone .inputs {
+    text-decoration: line-through;
+    color: aquamarine;
+}

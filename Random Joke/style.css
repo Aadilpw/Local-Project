@@ -1,0 +1,9 @@
+body{
+    margin: 0;
+    background-color: #cf8a6a;
+}
+button{
+    background-color: aqua;
+    width: 100px;
+    font-family: 'Times New Roman', Times, serif;
+}
